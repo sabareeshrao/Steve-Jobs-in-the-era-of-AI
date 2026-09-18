@@ -4,7 +4,7 @@ A 3,600-batch, repository-driven journey from AI beginner to foundation-model an
 
 ## Mission
 
-The repository follows a build-first learning system. Every batch contains small practical mini-tasks. Each new batch must inspect completed work, code, experiments, failures, prerequisites, and the current project state before it is generated.
+The repository follows a build-first learning system. Every batch contains small practical mini-tasks with worked answers. Each new batch must inspect completed work, code, experiments, failures, prerequisites, learner maturity, and the current project state before it is generated.
 
 ## Core Rules
 
@@ -12,6 +12,8 @@ The repository follows a build-first learning system. Every batch contains small
 - 60 major AI domains, 60 core batches per domain.
 - Repository content is English only.
 - Each batch builds on prior batches.
+- Every batch includes worked answers.
+- Before every batch, the learning order is reviewed and may be readjusted when justified.
 - No unnecessary repetition.
 - Dynamic prerequisite/remediation batches may be inserted and marked with ⭐ without changing the 3,600 core-batch numbering.
 - Every completed batch updates progress state.
@@ -22,7 +24,7 @@ The repository follows a build-first learning system. Every batch contains small
 
 - `MASTER_ROADMAP.md` - all 60 domains and their batch ranges.
 - `STATUS.md` - current progress and next batch.
-- `docs/OPERATING_RULES.md` - generation, review, commit, and dynamic-adjustment rules.
+- `docs/OPERATING_RULES.md` - generation, review, commit, adaptive-order, and dynamic-adjustment rules.
 - `docs/BATCH_TEMPLATE.md` - standard format for every batch.
 - `batches/` - batch material added as the journey progresses.
 - `projects/` - progressively larger AI systems and models.
@@ -33,9 +35,10 @@ The repository follows a build-first learning system. Every batch contains small
 
 ## Current State
 
-- Completed core batches: **1 / 3,600**
+- Completed core batches: **2 / 3,600**
 - Current track: **01 - AI Landscape & First Principles**
-- Last completed core batch: **0001**
-- Next core batch: **0002**
+- Last completed core batch: **0002**
+- Next core batch: **0003**
+- Dynamic ⭐ batches completed: **0**
 
 See `STATUS.md` for the live state and `MASTER_ROADMAP.md` for the full 3,600-batch distribution.
