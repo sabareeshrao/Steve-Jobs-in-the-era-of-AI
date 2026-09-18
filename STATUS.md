@@ -5,19 +5,25 @@
 | Field | Value |
 |---|---|
 | Total core batches | 3,600 |
-| Completed core batches | 0 |
+| Completed core batches | 1 |
 | Completed dynamic ⭐ batches | 0 |
 | Current track | 01 - AI Landscape & First Principles |
-| Last completed core batch | None |
-| Next core batch | 0001 |
+| Last completed core batch | 0001 |
+| Next core batch | 0002 |
 | Current dynamic batch | None |
-| Journey state | READY TO START |
+| Journey state | IN PROGRESS |
 
 ## Completion
 
-- Core progress: 0 / 3,600
-- Track 01 progress: 0 / 60
+- Core progress: 1 / 3,600
+- Track 01 progress: 1 / 60
 - Dynamic remediation/research batches completed: 0
+
+## Completed Batches
+
+| Batch | Title | Status |
+|---|---|---|
+| 0001 | What Exactly Is Artificial Intelligence? | COMPLETE |
 
 ## State Contract
 
@@ -31,6 +37,19 @@ This file must be updated when a batch is committed. Before generating a new bat
 6. Open prerequisite gaps and dynamic ⭐ tasks.
 7. The build order for the current track.
 
+## Current Knowledge State
+
+Batch 0001 established the beginner mental models for:
+
+- Rule-based software vs machine-learning systems.
+- Input -> Model -> Output.
+- Training vs inference.
+- AI -> Machine Learning -> Deep Learning -> Generative AI.
+- Foundation models at a high level.
+- Product analysis using input, learned capability, inference, output, usefulness, and failure questions.
+
+No dynamic prerequisite batch is currently required.
+
 ## Next Action
 
-Generate **Core Batch 0001** only after reviewing the repository state.
+Review Batch 0001 and the repository state, then generate **Core Batch 0002** without unnecessarily repeating Batch 0001.
