@@ -41,10 +41,39 @@ Check, in order:
 8. Prerequisites
 9. Duplicate-topic risk
 10. Current build order
+11. Learner maturity reached so far
+12. Whether the planned sequence should be readjusted
 
 Then decide whether the next item should be the next core batch or a dynamic ⭐ batch.
 
-## 5. Batch Design
+## 5. Adaptive Learning-Order Rule
+
+The 3,600-batch roadmap defines the long-range destination, not an immutable sequence of future lessons.
+
+Before every batch:
+
+- Re-evaluate the order of learning.
+- Preserve already-completed batches.
+- Move future concepts earlier or later when dependencies justify it.
+- Avoid teaching advanced abstractions before required mental models exist.
+- Avoid unnecessary repetition of concepts already demonstrated.
+- Prefer build order over textbook chapter order when the project benefits from it.
+- Insert a ⭐ dynamic batch when the next core batch would otherwise depend on missing knowledge.
+- Record meaningful sequencing decisions inside the batch.
+
+## 6. Answers Are Mandatory
+
+Every future batch must include worked answers for its mini-tasks.
+
+Answers should:
+
+- Show the expected reasoning or result.
+- Remain appropriate to the learner's current maturity.
+- Not hide required intermediate understanding.
+- Clearly distinguish a sample answer from facts when multiple valid answers are possible.
+- Grow in technical depth as the journey matures.
+
+## 7. Batch Design
 
 Each batch should normally contain small, executable mini-tasks rather than one large assignment.
 
@@ -56,18 +85,19 @@ A batch should:
 - Produce observable evidence.
 - Include code when the stage requires code.
 - Include tests or checks when applicable.
+- Include worked answers.
 - End with a clear completion checklist.
 - Record discoveries that should affect future batches.
 
-## 6. Build-First Principle
+## 8. Build-First Principle
 
 Theory must connect to implementation, experiments, debugging, evaluation or product behavior. The journey should progressively build real artifacts rather than become a collection of notes.
 
-## 7. Language Guardrail
+## 9. Language Guardrail
 
 All repository content must be written in English.
 
-## 8. Commit Rule
+## 10. Commit Rule
 
 Do not mark a batch complete until its intended repository changes are committed. A completion commit should update STATUS.md and the batch record.
 
@@ -78,7 +108,7 @@ Recommended commit pattern:
 - docs: <documentation change>
 - fix: <correction>
 
-## 9. Evidence Rule
+## 11. Evidence Rule
 
 Where applicable, keep evidence such as:
 
@@ -92,11 +122,11 @@ Where applicable, keep evidence such as:
 - Research notes.
 - Architecture decisions.
 
-## 10. No Blind Sequence Rule
+## 12. No Blind Sequence Rule
 
-The roadmap gives direction. Repository evidence determines the exact next work. Never continue merely because the next number exists.
+The roadmap gives direction. Repository evidence and current learner maturity determine the exact next work. Never continue merely because the next number exists.
 
-## 11. End Goal
+## 13. End Goal
 
 The journey is designed to move through broad AI mastery and progressively serious systems toward:
 
