@@ -5,18 +5,18 @@
 | Field | Value |
 |---|---|
 | Total core batches | 3,600 |
-| Completed core batches | 3 |
+| Completed core batches | 4 |
 | Completed dynamic ⭐ batches | 0 |
 | Current track | 01 - AI Landscape & First Principles |
-| Last completed core batch | 0003 |
-| Next core batch | 0004 |
+| Last completed core batch | 0004 |
+| Next core batch | 0005 |
 | Current dynamic batch | None |
 | Journey state | IN PROGRESS |
 
 ## Completion
 
-- Core progress: 3 / 3,600
-- Track 01 progress: 3 / 60
+- Core progress: 4 / 3,600
+- Track 01 progress: 4 / 60
 - Dynamic remediation/research batches completed: 0
 
 ## Completed Batches
@@ -26,6 +26,7 @@
 | 0001 | What Exactly Is Artificial Intelligence? | COMPLETE |
 | 0002 | How Does a Machine Actually Learn From Data? | COMPLETE |
 | 0003 | Not Every AI Model Learns the Same Way | COMPLETE |
+| 0004 | Dataset vs Algorithm vs Architecture vs Model vs AI Product | COMPLETE |
 
 ## State Contract
 
@@ -72,6 +73,16 @@ Batch 0003 added:
 - The idea that modern models can pass through multiple training stages.
 - Why self-supervision is important for large language-model pretraining.
 
+Batch 0004 added:
+
+- Dataset vs trained model.
+- Algorithm vs trained model.
+- Model architecture vs parameters.
+- Trained model vs inference engine.
+- Model vs AI system.
+- AI system vs user-facing AI product.
+- The idea that one product can use multiple models and one model can power multiple products.
+
 No dynamic prerequisite batch is currently active.
 
 ## Permanent Batch Rules
@@ -83,4 +94,4 @@ No dynamic prerequisite batch is currently active.
 
 ## Next Action
 
-Review Batches 0001-0003 and the current repository state, perform a learning-order inspection, then generate **Core Batch 0004** or a justified ⭐ dynamic prerequisite batch.
+Review Batches 0001-0004 and the current repository state, perform a learning-order inspection, then generate **Core Batch 0005** or a justified ⭐ dynamic prerequisite batch.
