@@ -35,10 +35,10 @@ The repository follows a build-first learning system. Every batch contains small
 
 ## Current State
 
-- Completed core batches: **2 / 3,600**
+- Completed core batches: **3 / 3,600**
 - Current track: **01 - AI Landscape & First Principles**
-- Last completed core batch: **0002**
-- Next core batch: **0003**
+- Last completed core batch: **0003**
+- Next core batch: **0004**
 - Dynamic ⭐ batches completed: **0**
 
 See `STATUS.md` for the live state and `MASTER_ROADMAP.md` for the full 3,600-batch distribution.
